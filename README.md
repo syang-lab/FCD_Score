@@ -17,10 +17,10 @@ git+https://github.com/openai/CLIP.git
 
 # Usage
 calculate and save statistics for datasest:\
-python fcd_score.py --model-name "Vit-B/32" --savepath path_to_image_dataset path_to_save_file
+python -m fcd_score.py --model-name "Vit-B/32" --savepath path_to_image_dataset path_to_save_file
 
 calculate FCD score for image dataset and generated image dataset:\
-python fcd_score.py --model-name "Vit-B/32" --paths path_to_image_dataset path_to_generated_image_dataset
+python -m fcd_score.py --model-name "Vit-B/32" --paths path_to_image_dataset path_to_generated_image_dataset
 
 # Citing
 If you use this repository in your research, consider citing it using the following Bibtex entry:\
@@ -29,7 +29,7 @@ author={Shan Yang},\
 title={{pytorch-fcd: FCD Score for PyTorch}},\
 month={Nov},\
 year={2023},\
-note={Version 1.0.0},\
+note={Version 1.0.0.dev1},\
 howpublished={\url{https://github.com/mseitzer/pytorch-fid}} 
 \}
 

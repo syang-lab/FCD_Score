@@ -30,7 +30,7 @@ title={{pytorch-fcd: FCD Score for PyTorch}},\
 month={Nov},\
 year={2023},\
 note={Version 1.0.0.dev1},\
-howpublished={\url{https://github.com/mseitzer/pytorch-fid}} 
+howpublished={\url{https://github.com/syang-lab/FCD_Score}} 
 \}
 
 # License

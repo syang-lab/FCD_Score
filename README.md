@@ -13,14 +13,14 @@ pillow\
 scipy\
 torch>=1.7.1\
 torchvision>=0.8.2\
-git+https://github.com/openai/CLIP.git 
+clip 
 
 # Usage
 calculate and save statistics for datasest:\
-python -m fcd_score.py --model-name "Vit-B/32" --savepath path_to_image_dataset path_to_save_file
+pytorch-fcd --model-name "ViT-B/32" --savepath path_to_image_dataset path_to_save_file
 
 calculate FCD score for image dataset and generated image dataset:\
-python -m fcd_score.py --model-name "Vit-B/32" --paths path_to_image_dataset path_to_generated_image_dataset
+pytorch-fcd --model-name "ViT-B/32" --paths path_to_image_dataset path_to_generated_image_dataset
 
 # Citing
 If you use this repository in your research, consider citing it using the following Bibtex entry:\

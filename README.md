@@ -33,4 +33,7 @@ note={Version 1.0.0},\
 howpublished={\url{https://github.com/mseitzer/pytorch-fid}} 
 \}
 
+# License
+This implementation is licensed under the Apache License 2.0.
+
 
